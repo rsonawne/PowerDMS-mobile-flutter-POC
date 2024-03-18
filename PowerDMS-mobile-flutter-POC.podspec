@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     s.source           = { :git => 'https://github.com/rsonawne/PowerDMS-mobile-flutter-POC.git' }
     s.platform     = :ios, '16.0'
     s.source_files = 'lib/**/*'
-    s.ios.deployment_target = '16.0'
+    s.ios.deployment_target = '14.0'
     s.dependency 'Flutter'
 
     s.preserve_paths = 'PowerDMS-mobile-flutter-POC.framework'
