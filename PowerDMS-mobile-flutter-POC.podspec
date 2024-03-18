@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
     s.author           = { 'Your Name' => 'your@email.com' }
     s.source           = { :git => 'https://github.com/rsonawne/PowerDMS-mobile-flutter-POC.git', :tag => s.version.to_s }
     s.platform     = :ios, '9.0'
-    s.source_files = 'Classes/**/*'
+    s.source_files = 'lib/**/*'
     s.dependency 'Flutter'
 end
