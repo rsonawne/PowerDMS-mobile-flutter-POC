@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'Your Name' => 'your@email.com' }
     s.source           = { :git => 'https://github.com/rsonawne/PowerDMS-mobile-flutter-POC.git' }
-    s.platform     = :ios, '16.0'
+    s.platform     = :ios, '14.0'
     s.source_files = 'lib/**/*'
     s.ios.deployment_target = '14.0'
     s.dependency 'Flutter'
