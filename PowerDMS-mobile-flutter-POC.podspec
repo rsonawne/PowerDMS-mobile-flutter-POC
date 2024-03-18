@@ -10,6 +10,9 @@ Pod::Spec.new do |s|
     s.platform     = :ios, '16.0'
     s.source_files = 'lib/**/*'
     s.ios.deployment_target = '16.0'
-
     s.dependency 'Flutter'
+
+    s.preserve_paths = 'PowerDMS-mobile-flutter-POC.framework'
+    s.xcconfig = { 'OTHER_LDFLAGS' => '-framework PowerDMS-mobile-flutter-POC' }
+    s.vendored_frameworks = 'PowerDMS-mobile-flutter-POC.framework'
 end
