@@ -17,6 +17,7 @@ Pod::Spec.new do |spec|
   spec.subspec 'FlutterSDK' do |sdk|
     sdk.dependency 'Flutter'
   end
+  spec.ios.vendored_frameworks = 'path_to_flutter_sdk/bin/cache/artifacts/engine/ios/FlutterPluginRegistrant.framework'
 
   spec.license = { :type => 'MIT', :file => 'LICENSE' }
   spec.author = { 'Rohit Sonawane' => 'your@email.com' }
