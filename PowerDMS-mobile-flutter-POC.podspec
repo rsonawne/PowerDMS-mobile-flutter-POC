@@ -5,7 +5,8 @@ Pod::Spec.new do |spec|
     spec.description = 'A proof of concept Flutter module for PowerDMS mobile app'
     spec.homepage = 'https://github.com/rsonawne/PowerDMS-mobile-flutter-POC'
     spec.source = { :git => 'https://github.com/rsonawne/PowerDMS-mobile-flutter-POC.git', :tag => spec.version.to_s }
-  
+    s.license          = { :type => 'MIT', :file => 'LICENSE' }
+    s.author           = { 'Rohit Sonawane' => 'your@email.com' }
     spec.platform = :ios, '9.0'
   
     spec.pod_target_xcconfig = {
