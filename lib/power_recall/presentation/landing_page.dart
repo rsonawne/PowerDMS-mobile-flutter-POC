@@ -45,7 +45,7 @@ class _LandingPageState extends State<LandingPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("POWER RECALL_1"),
+        title: Text("POWER RECALL"),
       ),
       body: questionList == null
           ? const CircularProgressIndicator()
