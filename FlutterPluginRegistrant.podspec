@@ -1,3 +1,6 @@
+#
+# Generated file, do not edit.
+#
 
 Pod::Spec.new do |s|
   s.name             = 'FlutterPluginRegistrant'
@@ -12,7 +15,7 @@ Depends on all your plugins, and provides a function to register them.
   s.ios.deployment_target = '12.0'
   s.source_files =  "Classes", "Classes/**/*.{h,m}"
   s.source           = { :path => '.' }
-  s.public_header_files = './Classes/**/*.h'
+  s.public_header_files = 'Classes/**/*.h'
   s.static_framework    = true
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
   s.dependency 'Flutter'
