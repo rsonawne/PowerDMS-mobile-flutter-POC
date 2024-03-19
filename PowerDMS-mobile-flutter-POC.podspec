@@ -16,7 +16,6 @@ Pod::Spec.new do |spec|
 
   spec.subspec 'FlutterSDK' do |sdk|
     sdk.dependency 'Flutter'
-    sdk.dependency 'FlutterPluginRegistrant' 
   end
 
   flutter_framework_path = Dir.glob(File.join(File.dirname(__FILE__), '**', 'FlutterPluginRegistrant.framework')).first
