@@ -14,9 +14,6 @@ Pod::Spec.new do |spec|
 
   spec.source_files = '.ios/Flutter/FlutterPluginRegistrant/Classes/**/*'
 
-  spec.subspec 'FlutterSDK' do |sdk|
-    sdk.dependency 'Flutter'
-  end
 
  
   spec.license = { :type => 'MIT', :file => 'LICENSE' }
