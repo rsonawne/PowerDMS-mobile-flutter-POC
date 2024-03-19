@@ -18,11 +18,7 @@ Pod::Spec.new do |spec|
     sdk.dependency 'Flutter'
   end
 
-  flutter_framework_path = Dir.glob(File.join(File.dirname(__FILE__), '**', 'FlutterPluginRegistrant.framework')).first
-
-  # Add the FlutterPluginRegistrant.framework file as a vendored framework
-  spec.ios.vendored_frameworks = flutter_framework_path
-
+ 
   spec.license = { :type => 'MIT', :file => 'LICENSE' }
   spec.author = { 'Rohit Sonawane' => 'your@email.com' }
 end
