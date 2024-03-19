@@ -1,15 +1,19 @@
-Pod::Spec.new do |spec|
-  spec.name = 'FlutterPluginRegistrant'
-  spec.version = '1.0.0'
-  spec.summary = 'Flutter Plugin Registrant for iOS projects'
-  spec.description = 'This pod integrates the required plugins and modules for Flutter in an iOS project.'
-  spec.license = 'MIT'
-  spec.homepage = 'https://github.com/flutter/plugins/FlutterPluginRegistrant'
-  spec.author = { 'Your Name' => 'Your Email' }
-  spec.platform = :ios, '9.0'
-  
-  spec.source = { :git => 'https://github.com/flutter/plugins.git', :tag => 'FlutterPluginRegistrant-1.0.0' }
-  
-  spec.source_files = 'FlutterPluginRegistrant/**/*'
-  spec.resources = 'FlutterPluginRegistrant/Assets/**/*'
+
+Pod::Spec.new do |s|
+  s.name             = 'FlutterPluginRegistrant'
+  s.version          = '0.0.1'
+  s.summary          = 'Registers plugins with your Flutter app'
+  s.description      = <<-DESC
+Depends on all your plugins, and provides a function to register them.
+                       DESC
+  s.homepage         = 'https://flutter.dev'
+  s.license          = { :type => 'BSD' }
+  s.author           = { 'Flutter Dev Team' => 'flutter-dev@googlegroups.com' }
+  s.ios.deployment_target = '12.0'
+  s.source_files =  "Classes", "Classes/**/*.{h,m}"
+  s.source           = { :path => '.' }
+  s.public_header_files = './Classes/**/*.h'
+  s.static_framework    = true
+  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
+  s.dependency 'Flutter'
 end
