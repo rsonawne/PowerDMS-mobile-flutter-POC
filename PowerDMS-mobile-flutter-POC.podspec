@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
     'SWIFT_VERSION' => '5.0'
   }
 
-  spec.source_files = 'Classes/**/*'
+  spec.source_files = '.ios/Flutter/FlutterPluginRegistrant/Classes/**/*'
 
   spec.subspec 'FlutterSDK' do |sdk|
     sdk.dependency 'Flutter'
