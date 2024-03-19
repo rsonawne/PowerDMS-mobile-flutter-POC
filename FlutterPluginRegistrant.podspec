@@ -7,6 +7,8 @@ Pod::Spec.new do |spec|
   spec.platform = :ios, '9.0'
   spec.description = 'This pod integrates the required plugins and modules for Flutter in an iOS project.'
   spec.license = 'MIT'
+  spec.author = { 'Your Name' => 'Your Email' }
+  spec.homepage = 'https://github.com/flutter/plugins/FlutterPluginRegistrant'
   spec.source_files = 'Classes/**/*'
   spec.ios.vendored_frameworks = 'Frameworks/FlutterPluginRegistrant.framework'
 end
