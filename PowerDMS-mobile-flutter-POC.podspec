@@ -12,12 +12,12 @@ Pod::Spec.new do |spec|
     'SWIFT_VERSION' => '5.0'
   }
 
-  spec.source_files = 'lib/**/*'
+  spec.source_files = 'Classes/**/*'
 
   spec.subspec 'FlutterSDK' do |sdk|
     sdk.dependency 'Flutter'
   end
-  
+
   spec.license = { :type => 'MIT', :file => 'LICENSE' }
   spec.author = { 'Rohit Sonawane' => 'your@email.com' }
 end
