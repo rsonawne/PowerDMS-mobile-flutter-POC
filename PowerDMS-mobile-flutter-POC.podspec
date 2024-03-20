@@ -19,6 +19,5 @@ Pod::Spec.new do |s|
 
   s.source_files = '.ios/Flutter/FlutterPluginRegistrant/Classes/**/*'
   s.public_header_files = '.ios/Flutter/FlutterPluginRegistrant/Classes/**/*.h'
-  s.source_files = 'lib/main'
 
 end
