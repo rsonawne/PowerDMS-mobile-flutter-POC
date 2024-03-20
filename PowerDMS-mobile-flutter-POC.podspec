@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.author       = { 'Rohit Sonawane' => 'your.email@example.com' }
 
   s.platform     = :ios, '9.0'
-  spec.source = { :git => 'https://github.com/rsonawne/PowerDMS-mobile-flutter-POC.git', :tag => spec.version.to_s }
+  s.source = { :git => 'https://github.com/rsonawne/PowerDMS-mobile-flutter-POC.git', :tag => spec.version.to_s }
 
   s.source_files = 'ios/Classes/**/*'
   s.public_header_files = 'ios/Classes/**/*.h'
