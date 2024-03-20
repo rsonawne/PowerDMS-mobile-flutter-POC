@@ -1,9 +1,9 @@
 #!/bin/sh
 # This is a generated file; do not edit or check into version control.
 export "FLUTTER_ROOT=/Applications/SDKs/flutterSDK/flutter"
-export "FLUTTER_APPLICATION_PATH=${SRCROOT}/my_flutter"
+export "FLUTTER_APPLICATION_PATH=/Applications/WorkSpace/flutter/github/PowerDMS-mobile-flutter-POC"
 export "COCOAPODS_PARALLEL_CODE_SIGN=true"
-export "FLUTTER_TARGET=${FLUTTER_APPLICATION_PATH}/lib/main.dart"
+export "FLUTTER_TARGET=/Applications/WorkSpace/flutter/github/PowerDMS-mobile-flutter-POC/lib/main.dart"
 export "FLUTTER_BUILD_DIR=build"
 export "FLUTTER_BUILD_NAME=1.0.0"
 export "FLUTTER_BUILD_NUMBER=1"
