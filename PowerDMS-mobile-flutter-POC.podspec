@@ -18,8 +18,8 @@ Pod::Spec.new do |s|
     sdk.dependency 'Flutter'
   end
 
-  s.source_files = 'ios/Classes/**/*'
-  s.public_header_files = 'ios/Classes/**/*.h'
+  s.source_files = '.ios/Flutter/FlutterPluginRegistrant/Classes/**/*'
+  s.public_header_files = '.ios/Flutter/FlutterPluginRegistrant/Classes/**/*.h'
 
   s.dependency 'Flutter' # Replace with any additional dependencies required by your Flutter module
 end
