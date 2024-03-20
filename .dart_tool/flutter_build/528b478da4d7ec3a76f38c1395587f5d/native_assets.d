@@ -1,0 +1,1 @@
+ /Applications/WorkSpace/flutter/github/PowerDMS-mobile-flutter-POC/.dart_tool/flutter_build/528b478da4d7ec3a76f38c1395587f5d/native_assets.yaml: 
