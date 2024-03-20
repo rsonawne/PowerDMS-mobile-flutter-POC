@@ -18,5 +18,4 @@ Depends on all your plugins, and provides a function to register them.
   s.public_header_files = '.ios/Flutter/FlutterPluginRegistrant/Classes/**/*.h'
   s.static_framework    = true
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
-  s.dependency 'Flutter'
 end
