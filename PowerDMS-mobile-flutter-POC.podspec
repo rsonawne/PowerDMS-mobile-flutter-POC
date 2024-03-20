@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { 'Rohit Sonawane' => 'your.email@example.com' }
 
-  s.platform     = :ios, '9.0'
+  s.platform     = :ios, '16.0'
   s.source = { :git => 'https://github.com/rsonawne/PowerDMS-mobile-flutter-POC.git', :tag => s.version.to_s }
 
   s.pod_target_xcconfig = {
