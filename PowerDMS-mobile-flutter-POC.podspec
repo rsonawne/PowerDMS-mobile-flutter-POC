@@ -10,6 +10,14 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '9.0'
   s.source = { :git => 'https://github.com/rsonawne/PowerDMS-mobile-flutter-POC.git', :tag => s.version.to_s }
 
+  s.pod_target_xcconfig = {
+    'SWIFT_VERSION' => '5.0'
+  }
+
+  s.subspec 'FlutterSDK' do |sdk|
+    sdk.dependency 'Flutter'
+  end
+
   s.source_files = 'ios/Classes/**/*'
   s.public_header_files = 'ios/Classes/**/*.h'
 
