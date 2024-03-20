@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   }
   s.vendored_frameworks = 'build/ios/framework/**/App.framework'
   s.subspec 'FlutterSDK' do |sdk|
-    sdk.dependency 'Flutter', '>= 3.19.2' # Replace '2.0.0' with your desired Flutter SDK version
+    sdk.dependency 'Flutter'
   end
 
   s.source_files = '.ios/Flutter/FlutterPluginRegistrant/Classes/**/*'
