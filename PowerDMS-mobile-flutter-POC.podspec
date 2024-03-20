@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = {
     'SWIFT_VERSION' => '5.0'
   }
-
+  s.vendored_frameworks = 'build/ios/framework/**/App.framework'
   s.subspec 'FlutterSDK' do |sdk|
     sdk.dependency 'Flutter'
   end
