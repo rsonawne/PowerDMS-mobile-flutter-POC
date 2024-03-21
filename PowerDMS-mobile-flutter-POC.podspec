@@ -1,8 +1,9 @@
+  
 # Define the path to your Flutter application in the Git repo
 flutter_application_path = 'https://github.com/rsonawne/PowerDMS-mobile-flutter-POC'
 
-# Load the podhelper.rb file from the Flutter application repository
-podhelper_filepath = File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')
+# Load the local podhelper.rb file from the project directory
+podhelper_filepath = '.ios/Flutter/podhelper.rb'
 load podhelper_filepath
 
 Pod::Spec.new do |s|
