@@ -136,7 +136,7 @@ class _QuestionPageState extends State<QuestionPage>
           Spacer(),
           Padding(
             padding:
-                const EdgeInsets.only(left: 0, right: 0, bottom: 20, top: 10),
+                const EdgeInsets.only(left: 10, right: 10, bottom: 20, top: 10),
             child: Row(
               crossAxisAlignment: CrossAxisAlignment.center,
               mainAxisAlignment: MainAxisAlignment.spaceAround,

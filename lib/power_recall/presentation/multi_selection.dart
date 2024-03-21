@@ -54,17 +54,16 @@ class _MultiSelectionState extends State<MultiSelection> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.transparent,
       body: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 24.0, vertical: 64.0),
+        padding: const EdgeInsets.symmetric(horizontal: 10.0, vertical: 20.0),
         child: Column(
           children: [
-            Text(
+            const Text(
               "Which color do you like the most?",
-              style: const TextStyle(
-                fontSize: 22.0,
+              style: TextStyle(
+                fontSize: 20.0,
                 color: Colors.black,
-                fontWeight: FontWeight.bold,
               ),
             ),
             Column(
@@ -108,7 +107,7 @@ class _MultiSelectionState extends State<MultiSelection> {
             ),
             Spacer(),
             Padding(
-              padding: const EdgeInsets.only(left: 0, right: 0, top: 10),
+              padding: const EdgeInsets.only(left: 0, right: 0, top: 18),
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -119,7 +118,7 @@ class _MultiSelectionState extends State<MultiSelection> {
                   ),
                   Expanded(
                       child: Container(
-                    height: 10,
+                    width: 10,
                   )),
                   ElevatedButton(
                     onPressed: widget.nextClicked,
